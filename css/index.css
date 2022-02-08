@@ -1,0 +1,61 @@
+body {background: white;}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {  
+    width: 5%;
+    padding: 1%;
+    text-align:center;
+}
+nav { 
+    width: 73%;
+    padding: 1%;
+ }
+
+ button {
+     color: rgb(39, 109, 167);
+     padding-left: 10px;
+ }
+
+ p {
+    color:rgb(39, 109, 167);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: roman; 
+    padding: 0px;  
+ }
+.footer {
+     width: 100%;
+     margin-left:auto; 
+     background-color: rgb(39, 109, 167);
+     padding-right: 15px;
+     padding-top: 5px;
+     margin: 5px;
+ }
+
+ .heroimg {
+     height: 600px;
+     padding: 25px;
+ }
+
+ ul {   
+    display:inline-block;
+    vertical-align:top;
+    padding: 30px;
+    color: lightblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    }
+
+li {
+
+    display: inline;
+    margin-right: 50px;
+
+}
+
+
