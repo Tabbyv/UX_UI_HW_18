@@ -1,0 +1,42 @@
+/*/ this is the HOME PAGE  /*/
+html,body{
+    margin:0;
+    padding: 0;
+    background-color: white
+}
+
+a { 
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: fira sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+li {
+    display:inline-flex;
+    margin-right: 20px;
+    color:green;
+ }
+
+#backgroundhome {
+    background-color: green;
+}
+
+.logo {
+    width:10in;
+    padding: 0%;
+    text-align: center;
+}
+
+
+
+
+
