@@ -1,57 +1,111 @@
 html,body{
     margin:0;
     padding: 0;
-    background-color: white
+    background-color: #003359;
 }
 
-a { text-decoration: none;
+a { 
+    text-decoration: none;
 }
 
-nav{
-    padding: 1%;
+
+h1{
+    font-family: 'poiret one';
+    font-style: regular;
+    font-size: 200px;
+    line-height: 100%;
+    color: #9ec3df;
+    text-align:left;
+    margin: 40px;
+    padding-left: 0px;
+    writing-mode: vertical-rl;
 }
+
+h2{ color:#003359;
+    font-family: 'Fira Sans';
+    font-size: 35px;
+    font-weight: roman; 
+    text-align: left;
+    padding-bottom: 0%; 
+    padding-top: 0px;
+    padding-right: 0px;
+    margin: 50px;
+}
+
+h3 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 28px;
+    font-weight: roman; 
+    text-align: left;
+    padding-bottom: 0%; 
+    padding-top: 0px;
+    margin: 50px;
+
+}
+h4 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 24px;
+    font-weight: normal; 
+    text-align: left;
+    margin: 50px;
+}
+
+
 
 .inline-block {
     display: inline-block;
-    vertical-align: top;
-    font-family: fira sans;
+    font-family: 'fira sans';
     font-style: normal;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 10px;
     letter-spacing: 2px;
+    word-spacing: 100px;
+    padding: 10px;
 }
+.footer {
+    background-color: #9ec3df;
+    text-align: center;
+}
+
 
 li {
     display: inline;
-     margin-right: 20px;
- }
+     margin-right: 20px; }
 
- ul {   
-    display:inline-block;
-    vertical-align:top;
-    padding: 30px;
-    color: lightblue;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: bold; 
-    margin-bottom: 50px;
-}
 
 .column1 {
+    padding-top: 200px;
     float: left;
-    width: 50%;
+    width: 40%;
+    background-color: #003359;
+    height:12in;
 }
 
 .column2 {
-    float: right;
-    width: 50%;
-}
-#backgroundhome {
-    background-color: blue;
+    float: center;
+    width: 20%;
+    background-color: #003359;
 }
 
-.logo {
-    width:5%;
-    padding: 1%;
-    text-align: center;
+.column3 {
+    float: right;
+    width: 40%;
+    max-height: 2000px;
+    background-color: white;
+    height:12in;
 }
+#magnolia {
+    padding: 90px;
+}
+
+
+p {
+    color:white;
+    font-family: 'Fira Sans';
+    font-size: 30px;
+    font-weight: normal; 
+    text-align: left;
+    margin-left: 100px;
+ }
+
+ 

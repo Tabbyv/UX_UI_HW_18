@@ -5,36 +5,34 @@ html,body{
     background-color: white
 }
 
-a { 
-    text-decoration: none;
+a { text-decoration: none;
 }
+
+#homepagebkg {
+    width: 100%;
+    height: auto;
+}
+
 
 .inline-block {
     display: inline-block;
-    vertical-align: bottom;
-    font-family: fira sans;
+    font-family: 'fira sans';
     font-style: normal;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 10px;
     letter-spacing: 2px;
-    text-align: left;
+    word-spacing: 100px;
+    padding: 10px;
 }
-
-li {
-    display:inline-flex;
-    margin-right: 20px;
-    color:green;
- }
-
-#backgroundhome {
-    background-color: green;
-}
-
-.logo {
-    width:10in;
-    padding: 0%;
+.footer {
+    background-color: #9ec3df;
+    align: center;
     text-align: center;
+
 }
+
+
+
 
 
 

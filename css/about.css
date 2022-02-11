@@ -1,6 +1,7 @@
 html,body{
     margin:0;
     padding: 0;
+    background-color: #9ec3df;
 }
 a { 
     text-decoration: none;
@@ -11,17 +12,21 @@ nav{
 
 .inline-block {
     display: inline-block;
-    vertical-align: bottom;
-    font-family: fira sans;
+    font-family: 'fira sans';
     font-style: normal;
-    font-size: 22px;
+    font-size: 28px;
     line-height: 10px;
     letter-spacing: 2px;
-    word-spacing: 60px;
+    word-spacing: 100px;
+    padding: 10px;
+}
+.footer {
+    background-color: #ffe595;
+    align: center;
+    text-align: center;
 }
 
-a { text-decoration: none;
-}
+
 
 li {
     display: inline;
@@ -29,20 +34,20 @@ li {
  }
 
  h1{
-    font-family: poiret one;
+    font-family: 'poiret one';
     font-style: regular;
     font-size: 200px;
     line-height: 100%;
     color: #ffe595;
     text-align:left;
-    margin: 00px;
+    margin: 40px;
     padding-left: 0px;
     writing-mode: vertical-rl;
 }
 
 h2{ color:#003359;
-    font-family: Fira Sans;
-    font-size: 35px;
+    font-family: 'Fira Sans';
+    font-size: 40px;
     font-weight: roman; 
     text-align: left;
     padding-bottom: 0%; 
@@ -51,9 +56,9 @@ h2{ color:#003359;
     margin: 50px;
 }
 
-h3 {color:white;
-    font-family: fira sans;
-    font-size: 28px;
+h3 {color: white;
+    font-family: 'fira sans';
+    font-size: 36px;
     font-weight: roman; 
     text-align: left;
     padding-bottom: 0%; 
@@ -61,44 +66,56 @@ h3 {color:white;
     margin: 50px;
     letter-spacing: 2px;
 }
-h4 {   color:#003359;
-    font-family: fira sans;
-    font-size: 25px;
+h4 {color:#003359;
+    font-family: 'fira sans';
+    font-size: 32px;
     font-weight: roman; 
     text-align: left;
     margin: 50px;
 }
 p {
     color:#003359;
-    font-family: Fira Sans;
+    font-family: 'fira Sans';
     font-size: 30px;
-    font-weight: lighter; 
+    font-weight:normal; 
     text-align: left;
     padding-bottom: 2%; 
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 20px;
-    margin: 50px;
+    margin: 75px;
  }
 
 .column1 {
     float: left;
-    width: 50%;
-    max-height: 2000px;
+    width: 40%;
     background-color: #9ec3df;
     height:12in;
 }
 
 .column2 {
-    float: right;
-    width: 30%;
+    float: center;
+    width: 20%;
+    background-color: #9ec3df;
 }
+
+
 .column3 {
     float: right;
-    width: 20%;
-
-
-.logo {
-    width:5%;
-    padding: 1%;
-    text-align: right;
+    width: 40%;
+    background-color: white;
+    height:10in;
 }
+button {
+    color:#ffe595;
+    font-family: 'fira Sans';
+    font-size: 30px;
+    font-weight:normal;
+    float: left;
+    margin-top: 25px;
+    background-color:#003359;
+    padding: 20px;
+
+
+}
+
+
