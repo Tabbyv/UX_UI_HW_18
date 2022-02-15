@@ -23,25 +23,34 @@ h1{
 
 h2{ color:#003359;
     font-family: 'Fira Sans';
+    display: flex;
+    flex-wrap: wrap;
     font-size: 40px;
     font-weight: lighter; 
     text-align: left;
+    padding-right: 50px;
     margin: 50px;
 }
 
 h3 {color:#003359;
     font-family: 'fira sans';
+    display: flex;
+    flex-wrap: wrap;
     font-size: 22px;
     font-weight: roman; 
     text-align: left;
+    padding-right: 50px;
     margin: 50px;
 
 }
 h4 {color:#003359;
     font-family: 'fira sans';
+    display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
     font-weight: normal; 
     text-align: left;
+    padding-right: 50px;
     margin: 50px;
 }
 
@@ -64,40 +73,20 @@ h6 {color:white;
 }
 
 
-
-.inline-block {
-    display: inline-block;
-    font-family: 'fira sans';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 10px;
-    letter-spacing: 2px;
-    word-spacing: 100px;
-    padding: 10px;
-}
-.footer {
-    background-color: #003359;
-    text-align: center;
-}
-
-
-li {
-    display: inline;
-     margin-right: 20px; }
-
-
 .column1 {
     padding-top: 30px;
     float: left;
     width: 40%;
     background-color: #9ec3df;
     height:14in;
+    flex-direction: column;
 }
 
 .column2 {
     float: center;
     width: 20%;
     background-color: #003359;
+    flex-direction: column;
 }
 
 .column3 {
@@ -105,7 +94,7 @@ li {
     width: 40%;
     max-height: 2000px;
     background-color: white;
-    height:10in;
+    flex-direction: column;
 }
 #magnolia {
     padding: 90px;
@@ -121,4 +110,37 @@ p {
     margin-left: 100px;
  }
 
+ .inline-block {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    padding: 10px;
+}
+.footer {
+    background-color: #003359;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+ /*
+.inline-block {
+    display: inline-block;
+    font-family: 'fira sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 2px;
+    word-spacing: 100px;
+    padding: 10px;
+}
+*/
  
