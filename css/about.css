@@ -67,7 +67,6 @@ p {
     float: left; 
     width: 40%;
     background-color: #9ec3df;
-    height:12in;
     flex-direction: column;
 }
 
@@ -81,10 +80,10 @@ p {
 
 .column3 {
     float: right;
-    width: 40%;
+    width: 50%;
     background-color: white;
-    height:10in;
     flex-direction: column;
+    height: 800px;
 }
 button {
     color:#ffe595;
@@ -106,7 +105,7 @@ button {
     font-size: 20px;
     line-height: 10px;
     letter-spacing: 2px;
-    word-spacing: 0px;
+    word-spacing: 50px;
     padding: 10px;
 
 }
@@ -116,8 +115,11 @@ button {
     background-color: #ffe595;
     display: inline-block;
     align-items: center;
-    justify-content: space-around;
+    width: 100%;
+    height: auto;
 }
+
+
 
 /*
 .inline-block {
