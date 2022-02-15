@@ -14,7 +14,7 @@ nav{
     display: inline-block;
     font-family: 'fira sans';
     font-style: normal;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 10px;
     letter-spacing: 2px;
     word-spacing: 100px;
@@ -47,7 +47,7 @@ li {
 
 h2{ color:#003359;
     font-family: 'Fira Sans';
-    font-size: 40px;
+    font-size: 26px;
     font-weight: roman; 
     text-align: left;
     padding-bottom: 0%; 
@@ -58,7 +58,7 @@ h2{ color:#003359;
 
 h3 {color: white;
     font-family: 'fira sans';
-    font-size: 36px;
+    font-size: 22px;
     font-weight: roman; 
     text-align: left;
     padding-bottom: 0%; 
@@ -68,7 +68,7 @@ h3 {color: white;
 }
 h4 {color:#003359;
     font-family: 'fira sans';
-    font-size: 32px;
+    font-size: 18px;
     font-weight: roman; 
     text-align: left;
     margin: 50px;
@@ -76,7 +76,7 @@ h4 {color:#003359;
 p {
     color:#003359;
     font-family: 'fira Sans';
-    font-size: 30px;
+    font-size: 18px;
     font-weight:normal; 
     text-align: left;
     padding-bottom: 2%; 
@@ -108,7 +108,7 @@ p {
 button {
     color:#ffe595;
     font-family: 'fira Sans';
-    font-size: 30px;
+    font-size: 22px;
     font-weight:normal;
     float: left;
     margin-top: 25px;
